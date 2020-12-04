@@ -13,4 +13,7 @@ public class Recursion{
       return 0 + Recursion.count7(n / 10);
     }
   }
+  public static String pairStar(String str) {
+    return "a*a";
+  }
 }
