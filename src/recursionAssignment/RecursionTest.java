@@ -43,7 +43,12 @@ public class RecursionTest{
         assertEquals("a*a", Recursion.pairStar("aa"));
         // assertTrue(TESTBOOLEAN);
     }
-    
+    @Test
+    public void PSTest2(){
+        // make assertion statement(s)
+        assertEquals("d*dz*zo*od*d", Recursion.pairStar("ddzzoodd"));
+        // assertTrue(TESTBOOLEAN);
+    }
     // add more tests
     
     @After
