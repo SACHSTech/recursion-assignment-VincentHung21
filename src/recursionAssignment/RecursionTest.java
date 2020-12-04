@@ -49,6 +49,12 @@ public class RecursionTest{
         assertEquals("d*dz*zo*od*d", Recursion.pairStar("ddzzoodd"));
         // assertTrue(TESTBOOLEAN);
     }
+    @Test
+    public void PSTest3(){
+        // make assertion statement(s)
+        assertEquals("abjdurn", Recursion.pairStar("abjdurn"));
+        // assertTrue(TESTBOOLEAN);
+    }
     // add more tests
     
     @After
