@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Before;
 import org.junit.jupiter.api.After;
 
-import rename-package.Main;
+import recursionAssignment.Recursion;
 
 public class RecursionTest{
     
@@ -19,7 +19,7 @@ public class RecursionTest{
     @Test
     public void Test1(){
         // make assertion statement(s)
-        // assertEquals(EXPECTEDVALUE, TESTVALUE);
+        assertEquals(2, Recursion.count7(717));
         // assertTrue(TESTBOOLEAN);
     }
     
