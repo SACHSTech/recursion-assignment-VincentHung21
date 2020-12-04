@@ -20,19 +20,19 @@ public class RecursionTest{
      * An initial test
      */
     @Test
-    public void Test1(){
+    public void C7Test1(){
         // make assertion statement(s)
         assertEquals(2, Recursion.count7(717));
         // assertTrue(TESTBOOLEAN);
     }
     @Test
-    public void Test2(){
+    public void C7Test2(){
         // make assertion statement(s)
         assertEquals(5, Recursion.count7(77777));
         // assertTrue(TESTBOOLEAN);
     }
     @Test
-    public void Test3(){
+    public void C7Test3(){
         // make assertion statement(s)
         assertEquals(0, Recursion.count7(1239823));
         // assertTrue(TESTBOOLEAN);
