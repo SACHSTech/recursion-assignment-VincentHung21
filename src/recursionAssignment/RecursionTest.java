@@ -37,6 +37,12 @@ public class RecursionTest{
         assertEquals(0, Recursion.count7(1239823));
         // assertTrue(TESTBOOLEAN);
     }
+    @Test
+    public void PSTest1(){
+        // make assertion statement(s)
+        assertEquals("a*a", Recursion.pairstar("aa"));
+        // assertTrue(TESTBOOLEAN);
+    }
     
     // add more tests
     
