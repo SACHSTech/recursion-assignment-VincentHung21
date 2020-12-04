@@ -31,6 +31,12 @@ public class RecursionTest{
         assertEquals(5, Recursion.count7(77777));
         // assertTrue(TESTBOOLEAN);
     }
+    @Test
+    public void Test3(){
+        // make assertion statement(s)
+        assertEquals(0, Recursion.count7(1239823));
+        // assertTrue(TESTBOOLEAN);
+    }
     
     // add more tests
     
