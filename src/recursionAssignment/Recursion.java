@@ -27,7 +27,6 @@ public class Recursion{
     }
   }
   public static boolean array220(int[] intNums, int index) {
-    System.out.println(index);
     //Test for Base Case array index reached end
     if (index == intNums.length - 1) {
       return false;
