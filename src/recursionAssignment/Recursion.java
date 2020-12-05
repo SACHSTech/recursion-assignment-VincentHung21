@@ -25,6 +25,15 @@ public class Recursion{
     } else {
       return str.charAt(0) + pairStar(str.substring(1));
     }
-
+  }
+  public static boolean array220(int[] intNums, int index) {
+    System.out.println(index);
+    if (index == intNums.length - 1) {
+      return false;
+    } else if (10 * (intNums[index]) == intNums[index + 1] || Recursion.array220(intNums, index + 1) == true) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }

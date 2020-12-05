@@ -55,6 +55,11 @@ public class RecursionTest{
         assertEquals("abjdurn", Recursion.pairStar("abjdurn"));
         // assertTrue(TESTBOOLEAN);
     }
+    @Test
+    public void ATest1(){
+        // make assertion statement(s)
+        assertTrue(Recursion.array220(new int[] {1, 2, 20}, 0));
+    }
     // add more tests
     
     @After
