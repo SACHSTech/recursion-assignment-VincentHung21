@@ -28,10 +28,13 @@ public class Recursion{
   }
   public static boolean array220(int[] intNums, int index) {
     System.out.println(index);
+    //Test for Base Case array index reached end
     if (index == intNums.length - 1) {
       return false;
+      //If next number in index is 10x current number OR access method recursively adding 1 to index. Return true if either are correct.
     } else if (10 * (intNums[index]) == intNums[index + 1] || Recursion.array220(intNums, index + 1) == true) {
       return true;
+      //Return false if anything else.
     } else {
       return false;
     }
